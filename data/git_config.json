@@ -1,0 +1,25 @@
+{
+  "repository": {
+    "name": "inventory-management-data",
+    "description": "库存管理系统数据仓库",
+    "created": "",
+    "branch": "main",
+    "remote": {
+      "origin": {
+        "url": "https://github.com/username/inventory-data.git",
+        "type": "github"
+      }
+    }
+  },
+  "sync": {
+    "autoCommit": true,
+    "commitInterval": 300000,
+    "maxCommits": 100,
+    "compressionEnabled": true
+  },
+  "backup": {
+    "enabled": true,
+    "interval": 3600000,
+    "maxBackups": 10
+  }
+}

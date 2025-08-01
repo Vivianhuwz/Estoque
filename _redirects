@@ -1,0 +1,5 @@
+# 重定向旧的库存管理系统路径
+/inventory_management_system.html / 301
+
+# SPA 路由支持 - 所有未找到的路径重定向到 index.html
+/* /index.html 200
